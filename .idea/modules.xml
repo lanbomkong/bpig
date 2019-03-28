@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/account/account.iml" filepath="$PROJECT_DIR$/account/account.iml" />
       <module fileurl="file://$PROJECT_DIR$/bpig.iml" filepath="$PROJECT_DIR$/bpig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dal/dal.iml" filepath="$PROJECT_DIR$/dal/dal.iml" />
     </modules>
   </component>
 </project>

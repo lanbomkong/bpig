@@ -6,16 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bpig" />
+        <module name="account" />
+        <module name="dal" />
+        <module name="sms" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="account" target="1.8" />
       <module name="bpig" target="1.8" />
+      <module name="dal" target="1.8" />
+      <module name="sms" target="1.8" />
+      <module name="sys-common" target="1.8" />
+      <module name="syscommon" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="account" options="-parameters" />
       <module name="bpig" options="-parameters" />
+      <module name="dal" options="-parameters" />
+      <module name="sms" options="-parameters" />
+      <module name="sys-common" options="-parameters" />
+      <module name="syscommon" options="-parameters" />
     </option>
   </component>
 </project>
