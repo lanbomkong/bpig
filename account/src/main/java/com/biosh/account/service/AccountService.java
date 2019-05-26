@@ -9,9 +9,9 @@ import org.springframework.stereotype.Service;
 public class AccountService {
 
     @Autowired
-    private BizUserMapper mapper;
+    private BizUserMapper userMapper;
 
     public void addUser(BizUser user) {
-        mapper.insertSelective(user);
+        userMapper.insertSelective(user);
     }
 }
