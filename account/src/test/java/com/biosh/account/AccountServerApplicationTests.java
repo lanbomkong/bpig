@@ -37,6 +37,7 @@ public class AccountServerApplicationTests {
 	  // 创建一个输入流，读取文件中的内容，通过read()方法读取，若返回值为-1，则表示已读完
 	  FileInputStream inputStream = new FileInputStream(file);
 	  int read;
+	  // xiugai
 	  StringBuilder stringBuilder = new StringBuilder();
 	  while ((read = inputStream.read()) != -1) {
 	    stringBuilder.append((char) read);
